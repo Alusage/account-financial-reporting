@@ -6,7 +6,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
     "name": "Account Financial Reports",
-    "version": "19.0.0.0.23",
+    "version": "20.0.0.0.23",
     "category": "Reporting",
     "summary": "OCA Financial Reports",
     "author": "Camptocamp,"
@@ -17,7 +17,7 @@
     "website": "https://github.com/OCA/account-financial-reporting",
     "depends": ["account", "date_range", "report_xlsx"],
     "data": [
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         "security/security.xml",
         "wizard/aged_partner_balance_wizard_view.xml",
         "wizard/general_ledger_wizard_view.xml",
