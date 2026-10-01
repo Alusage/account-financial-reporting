@@ -50,7 +50,9 @@
             "account_financial_report/static/src/xml/**/*",
         ],
     },
-    "installable": True,
+    # Odoo 20 removed account.group; the trial balance grouping must be
+    # rebuilt on account.account.code_path before this can install.
+    "installable": False,
     "application": True,
     "auto_install": False,
     "license": "AGPL-3",
